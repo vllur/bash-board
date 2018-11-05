@@ -1,5 +1,5 @@
 ---
-title: List of all tags
+title: Tag cloud
 layout: page
 ---
 
@@ -10,8 +10,10 @@ layout: page
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+<ul class="taglist">
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="{{ site.url }}{{ site.baseurl }}/tag/{{ tagname }}">{{ tagname }}</a>
+  <li><a href="{{ site.url }}{{ site.baseurl }}/tag/{{ tagname }}">{{ tagname }}</a></li>
 {% endfor %}
+</ul>

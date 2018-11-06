@@ -1,0 +1,49 @@
+.content-wrapper
+{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article
+{
+	padding: 1em;
+	max-width: 100%;
+}
+
+.highlight > pre
+{
+	overflow-x: auto;
+	text-align: left;
+	padding-left: 1em;
+	border-left: 1px solid $code-border;
+}
+
+code
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td{
+	padding: 0.5em;
+}
+
+tr:nth-child(even){
+	background-color: $table-shadow;
+}
+
+th{
+	background-color: $table-head;
+	border-bottom: $table-border;
+}

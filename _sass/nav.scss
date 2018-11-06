@@ -1,0 +1,23 @@
+nav
+{
+	height: 100vh;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+nav > ul > li
+{
+	transition: 0.3s;
+}
+
+nav > ul, .taglist
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}

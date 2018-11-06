@@ -1,3 +1,10 @@
 <header>
-    <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+    <section class="upperHeaderWrapper">
+        <h1><span onclick="openNav()">open</span> <a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+    </section>
+    <section class="bottomHeaderWrapper">
+        <h1>
+            /{% if post.title %}{{ post.title }}{% elsif page.title %}{{ page.title }}{% else %}home{% endif %}
+        </h1>
+    </section>
 </header>

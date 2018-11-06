@@ -1,6 +1,6 @@
-body, main, header, nav, article, section, footer, ul, ol, li, .pagination{
+/*body, main, header, nav, article, section, footer, ul, ol, li, .pagination{
 	border: 1px solid black;
-}
+}*/
 
 html, body, main
 {
@@ -34,6 +34,16 @@ article, .pagination
 {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.paginator
+{
+	;
+}
+
+.inactive
+{
+	;
 }
 
 img

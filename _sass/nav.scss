@@ -1,4 +1,4 @@
-nav
+.sideNav
 {
 	height: 100vh;
 	width: 0;
@@ -8,14 +8,38 @@ nav
 	left: 0;
 	overflow: hidden;
 	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: aqua;
 }
 
-nav > ul > li
+.sideNav > span
+{
+	position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.sideNav > ul
+{
+	width: 100%;
+	font-size: 2em;
+}
+
+.sideNav > ul > li
 {
 	transition: 0.3s;
+	width: 100%;
 }
 
-nav > ul, .taglist
+.sideNav > ul > li > a
+{
+	display: block;
+}
+
+.sideNav > ul, .taglist
 {
 	list-style-type: none;
 	padding: 0;

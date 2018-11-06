@@ -10,7 +10,6 @@ html, body, main
 
 body
 {
-	text-align: center;
 	padding: 0;
 }
 
@@ -19,6 +18,22 @@ main
 	display: flex;
 	flex-direction: column;
 	padding: 0;
+}
+
+nav,.pagination, footer
+{
+	text-align: center;
+}
+
+article, .pagination
+{
+	margin: 1em 0;
+}
+
+.pagination
+{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img
@@ -34,8 +49,10 @@ nav > ul, .taglist{
 
 .content-wrapper
 {
+	flex: 1;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	max-width: 70%;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,6 +61,7 @@ nav > ul, .taglist{
 article
 {
 	padding: 1em;
+
 }
 
 .highlight > pre

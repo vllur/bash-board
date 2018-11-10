@@ -1,5 +1,5 @@
 title: "bash-board"
-description: "Board Jekyll blog theme. "
+description: "Board Jekyll blog theme."
 author:
   name: "vllur"
   
@@ -30,3 +30,4 @@ plugins:
 google_analytics: ""
 owner : "vllur"
 lang: "en_GB"
+iso-lang: "en"

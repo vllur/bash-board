@@ -12,7 +12,7 @@
 article
 {
 	padding: 1em;
-	max-width: 100%;
+	max-width: 90%;
 }
 
 .home-article-wrapper
@@ -24,8 +24,21 @@ article
 
 .home-article
 {
-	width: 40%;
+	width: 35%;
+	margin: 2.5%;
 	border: 1px solid black;
+}
+
+.home-article > h2
+{
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.home-article > p
+{
+	margin-top: 0.5em;
+	margin-bottom: 0;
 }
 
 .highlight > pre

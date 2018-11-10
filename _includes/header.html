@@ -4,7 +4,11 @@
     </section>
     <section class="bottomHeaderWrapper">
         <h1>
-            /{% if post.title %}{{ post.title }}{% elsif page.title %}{{ page.title }}{% else %}home{% endif %}
+            {% if page.title %}
+                {{ page.title | downcase | replace: " ", "-"}}
+            {% else %}
+                Home
+            {% endif %}
         </h1>
     </section>
 </header>

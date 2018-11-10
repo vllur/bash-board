@@ -6,6 +6,7 @@ html, body, main
 
 body
 {
+	font-family: 'Helvetica', 'Trebuchet', 'Trebuchet MS', 'Arial', sans-serif;
 	padding: 0;
 }
 
@@ -14,6 +15,16 @@ main
 	display: flex;
 	flex-direction: column;
 	padding: 0;
+}
+
+a
+{
+	color: $link;
+}
+
+a:hover
+{
+	color: $link-hover;
 }
 
 nav,.pagination, footer
@@ -35,6 +46,11 @@ article, .pagination
 	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.pagination a
+{
+	text-decoration: none;
 }
 
 .paginator

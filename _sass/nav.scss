@@ -12,8 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	white-space: nowrap;
-
-	background-color: aqua;
+	background-color: $sideNav-bg;
 }
 
 .sideNav > span
@@ -38,6 +37,7 @@
 .sideNav > ul > li > a
 {
 	display: block;
+	padding: 0.25em 0 0.25em 0;
 }
 
 .sideNav > ul, .taglist

@@ -1,3 +1,13 @@
+$link: #3a3a3a;
+$link-hover: #727171;
+
+$sideNav-bg: #a8a8a8;
+
+$header-top-bg:  #212121;
+$header-bottom-bg: #353535;
+$header: #f9f9f9;
+$header-link: #f9f9f9;
+
 $nav-button-active-bg: #040404;
 $nav-button-active: #f4f4f4;
 $nav-button-inactive-bg: #f4f4f4;
@@ -9,3 +19,7 @@ $code-border: #a8a8a8;
 $table-border: #000000;
 $table-shadow: #f9f9f9;
 $table-head: #f0f0f0;
+
+$footer-bg: $header-top-bg;
+$footer: $header;
+$footer-link: $header-link;

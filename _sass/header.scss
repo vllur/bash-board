@@ -1,13 +1,19 @@
 header
 {
 	margin-bottom: 2.5%;
+	color: $header;
+}
+
+header a
+{
+	color: $header-link;
 }
 
 .upperHeaderWrapper
 {
 	position: fixed;
 	width: 100%;
-	background-color: gray;
+	background-color: $header-top-bg;
 }
 
 .upperHeaderWrapper > h1
@@ -17,7 +23,7 @@ header
 
 .bottomHeaderWrapper
 {
-	background-color: lightgray;
+	background-color: $header-bottom-bg;
 	margin-top: 3.2em;
 	padding: 1.5em;
 }

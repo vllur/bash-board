@@ -41,12 +41,11 @@ article
 	margin-bottom: 0;
 }
 
-.highlight > pre
+.highlight
 {
 	overflow-x: auto;
 	text-align: left;
-	padding-left: 1em;
-	border-left: 1px solid $code-border;
+	margin: 0;
 }
 
 code
@@ -55,21 +54,40 @@ code
 	margin-right: auto;
 }
 
-table{
+.rouge-table > tbody > tr > td
+{
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.lineno
+{
+	border-left: 1px solid $code-border;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.lineno, .rouge-code > pre
+{
+	margin: 0.5em;
+}
+
+article > table{
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-th, td{
+article > table > th, td{
 	padding: 0.5em;
 }
 
-tr:nth-child(even){
+article > table > tr:nth-child(even){
 	background-color: $table-shadow;
 }
 
-th{
+article > table > th{
 	background-color: $table-head;
 	border-bottom: $table-border;
 }

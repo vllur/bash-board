@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Archive
 ---
 
 <h1>Posts archive </h1>

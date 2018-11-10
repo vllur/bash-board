@@ -5,7 +5,7 @@
     <section class="bottomHeaderWrapper">
         <h1>
             {% if page.title %}
-                {{ page.title | downcase | replace: " ", "-"}}
+                {{ page.url | downcase | append: '@' | remove: '/@' | remove: '@' }}
             {% else %}
                 Home
             {% endif %}

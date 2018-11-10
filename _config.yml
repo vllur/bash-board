@@ -20,6 +20,8 @@ defaults:
     values:
       layout: "post"
 
+markdown: kramdown
+highlighter: rouge
 future: true
 exclude: [vendor]
 plugins:

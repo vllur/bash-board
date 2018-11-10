@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "rake"
+gem "rouge"
 gem "jekyll"
 gem 'jekyll-seo-tag'
 gem "jekyll-paginate"

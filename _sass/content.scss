@@ -3,8 +3,8 @@
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	max-width: 70%;
+	align-items: center;
+	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -13,6 +13,19 @@ article
 {
 	padding: 1em;
 	max-width: 100%;
+}
+
+.home-article-wrapper
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.home-article
+{
+	width: 40%;
+	border: 1px solid black;
 }
 
 .highlight > pre

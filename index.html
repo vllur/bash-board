@@ -2,13 +2,14 @@
 layout: default
 ---
 
+<aside class="home-article-wrapper">
 {% for post in paginator.posts %}
-	<article>
+	<article class="home-article">
 	<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-	<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-	{% include tags.html %}
-	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+	<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>, on topics: {% include tags.html %}
+	<p>{{ post.content | strip_html | truncatewords:15 }}</p>
 	</article>
 {% endfor %}
+</aside>
 
 {% include pages.html %}

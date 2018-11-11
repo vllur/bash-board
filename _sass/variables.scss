@@ -1,5 +1,6 @@
 $body-font-family: 'Helvetica', 'Trebuchet', 'Trebuchet MS', 'Arial', sans-serif;
 $code-font-family: 'Monaco', 'Deja Vu Sans';
+$paginator-font-family: $code-font-family;
 $footer-font-family: $code-font-family;
 
 $main-color: #80ecaf;
@@ -20,7 +21,9 @@ $sideNav-hover: #d6d6d6;
 $sideNav-hover-bg: $header-bottom-bg;
 
 $nav-button-active-bg: #040404;
+$nav-button-active-bg-hover: $header-bottom-bg;
 $nav-button-active: #f4f4f4;
+$nav-button-active-hover: $main-color;
 $nav-button-inactive-bg: #f4f4f4;
 $nav-button-inactive: #040404;
 

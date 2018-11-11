@@ -73,14 +73,21 @@ i:hover
 {
 	background-color: $nav-button-active-bg;
 	color: $nav-button-active;
+	font-family: $paginator-font-family;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 5em;
+	width: 6em;
 	height: 2em;
 }
 
-.inactive
+.paginator:hover
+{
+	background-color: $nav-button-active-bg-hover;
+	color: $nav-button-active-hover;
+}
+
+.inactive, .inactive:hover
 {
 	background-color: $nav-button-inactive-bg;
 	color: $nav-button-inactive;

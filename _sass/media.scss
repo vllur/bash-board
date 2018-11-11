@@ -1,5 +1,15 @@
 @media only screen and (min-width: 1115px)
 {
+    body
+    {
+        font-size: 1.1em;
+    }
+
+    header
+    {
+        font-size: 0.9em;
+    }
+
     .content-wrapper{
         width: 60%;
     }
@@ -7,6 +17,10 @@
 
 @media only screen and (max-width: 600px)
 {
+    body{
+        font-size: 0.9em;
+    }
+
     .home-article{
         width: 60%;
     }
@@ -18,7 +32,24 @@
 
 @media only screen and (max-width: 350px)
 {
+    header{
+        font-size: 0.8em;
+    }
+
     .pagination{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px)
+{
+    header{
+        font-size: 0.7em;
+    }
+
+    .sideNav > span
+    {
+        left: 0;
+        right: 0;
     }
 }

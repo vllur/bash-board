@@ -21,8 +21,6 @@ defaults:
       layout: "post"
 
 markdown: kramdown
-highlighter: rouge
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -42,6 +40,6 @@ plugins:
   - jekyll-sitemap
 
 google_analytics: ""
-owner : "vllur"
+owner: "vllur"
 lang: "en_GB"
 iso-lang: "en"

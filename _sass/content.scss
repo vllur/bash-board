@@ -26,10 +26,9 @@ article
 {
 	width: 35%;
 	margin: 2.5%;
-	border-top: 2px solid black;
-	border-left: 1px solid lightgray;
-	border-right: 1px solid lightgray;
-	border-bottom: 1px solid lightgray;
+	border-top: 2px solid $home-article-border-dark; 
+	border-right: 1px solid $home-article-border-light;
+	border-bottom: 1px solid $home-article-border-light;
 }
 
 .home-article > h2
@@ -76,21 +75,26 @@ code
 	margin: 0.5em;
 }
 
-article > table{
+article > table
+{
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-article > table > th, td{
+article > table > * > * > *{
 	padding: 0.5em;
 }
 
-article > table > tr:nth-child(even){
+article > table > tbody > tr:nth-child(even){
 	background-color: $table-shadow;
 }
 
-article > table > th{
+article > table > thead > tr{
 	background-color: $table-head;
 	border-bottom: $table-border;
+}
+
+article > table > * > *:hover{
+	background-color: $table-hover !important;
 }

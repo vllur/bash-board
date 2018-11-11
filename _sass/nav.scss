@@ -12,20 +12,29 @@
 	align-items: center;
 	justify-content: center;
 	white-space: nowrap;
+
+	color: $sideNav;
 	background-color: $sideNav-bg;
 }
 
 .sideNav > span
 {
 	position: absolute;
-    top: 0;
-    right: 5%;
+    top: 2em;
+    right: 2em;
 }
 
 .sideNav > ul
 {
 	width: 100%;
 	font-size: 2em;
+}
+
+.sideNav > ul, .taglist
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .sideNav > ul > li
@@ -38,11 +47,10 @@
 {
 	display: block;
 	padding: 0.25em 0 0.25em 0;
+	color: $sideNav;
 }
 
-.sideNav > ul, .taglist
+.sideNav > ul > li > a:hover
 {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	color: $sideNav-hover;
 }

@@ -1,17 +1,26 @@
+$body-font-family: 'Helvetica', 'Trebuchet', 'Trebuchet MS', 'Arial', sans-serif;
+$header-top-font-family: 'Bubblegum Sans';
+$header-bottom-font-family: 'Trpilicate', 'Fira Mono', 'Courier New', 'Input';
+
 $link: #3a3a3a;
 $link-hover: #727171;
-
-$sideNav-bg: #a8a8a8;
 
 $header-top-bg:  #212121;
 $header-bottom-bg: #353535;
 $header: #f9f9f9;
 $header-link: #f9f9f9;
 
+$sideNav-bg: $header-top-bg;
+$sideNav: $header-link;
+$sideNav-hover: $link-hover;
+
 $nav-button-active-bg: #040404;
 $nav-button-active: #f4f4f4;
 $nav-button-inactive-bg: #f4f4f4;
 $nav-button-inactive: #040404;
+
+$home-article-border-dark: black;
+$home-article-border-light: lightgray;
 
 $code-bg: #e0e0e0;
 $code-border: #a8a8a8;
@@ -19,6 +28,7 @@ $code-border: #a8a8a8;
 $table-border: #000000;
 $table-shadow: #f9f9f9;
 $table-head: #f0f0f0;
+$table-hover: #ffffff;
 
 $footer-bg: $header-top-bg;
 $footer: $header;

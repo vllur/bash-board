@@ -6,7 +6,7 @@ html, body, main
 
 body
 {
-	font-family: 'Helvetica', 'Trebuchet', 'Trebuchet MS', 'Arial', sans-serif;
+	font-family: $body-font-family;
 	padding: 0;
 }
 
@@ -51,6 +51,11 @@ article, .pagination
 .pagination a
 {
 	text-decoration: none;
+}
+
+.page_number
+{
+	word-wrap: none;
 }
 
 .paginator

@@ -19,11 +19,18 @@ header a
 .upperHeaderWrapper > h1
 {
 	margin: 0.25em;
+	font-family: $header-top-font-family;
+}
+
+.upperHeaderWrapper > h1 > a
+{
+	text-decoration: none;
 }
 
 .bottomHeaderWrapper
 {
 	background-color: $header-bottom-bg;
+	font-family: $header-bottom-font-family;
 	margin-top: 3.2em;
 	padding: 1.5em;
 }

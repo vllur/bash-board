@@ -1,17 +1,22 @@
 $body-font-family: 'Helvetica', 'Trebuchet', 'Trebuchet MS', 'Arial', sans-serif;
 $code-font-family: 'Monaco', 'Deja Vu Sans';
 
+$main-color: #80ecaf;
+$main-color-light: #a6fccb; 
+
 $link: #3a3a3a;
 $link-hover: #727171;
 
 $header-top-bg:  #212121;
 $header-bottom-bg: #353535;
 $header: #f9f9f9;
-$header-link: #f9f9f9;
+$header-link: $main-color;
+$header-link-hover: $main-color-light;
 
 $sideNav-bg: $header-top-bg;
-$sideNav: $header-link;
-$sideNav-hover: $link-hover;
+$sideNav: #f9f9f9;
+$sideNav-hover: #d6d6d6;
+$sideNav-hover-bg: $header-bottom-bg;
 
 $nav-button-active-bg: #040404;
 $nav-button-active: #f4f4f4;
@@ -29,6 +34,6 @@ $table-shadow: #f9f9f9;
 $table-head: #f0f0f0;
 $table-hover: #ffffff;
 
-$footer-bg: $header-top-bg;
 $footer: $header;
-$footer-link: $header-link;
+$footer-link: #f9f9f9;
+$footer-bg: $header-top-bg;

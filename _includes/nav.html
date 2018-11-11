@@ -1,9 +1,10 @@
 <nav class="sideNav" id="sideNav">
-    <span onclick="closeNav()"> close </span>
+    <span onclick="closeNav()"><i class="icon-left"></i></span>
     <ul>
         <li><a href="{{ "/" | absolute_url }}"> Home </a></li>
         <li><a href="{{ "/archive" | absolute_url }}"> Archive </a></li>
         <li><a href="{{ "/tag" | absolute_url }}"> All tags </a></li>
         <li><a href="{{ "/atom.xml" | absolute_url }}"> RSS </a></li>
     </ul>
+    {% include socials.html %}
 </nav>

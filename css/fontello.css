@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'bash-board';
+  src: url('../font/bash-board.eot?36748760');
+  src: url('../font/bash-board.eot?36748760#iefix') format('embedded-opentype'),
+       url('../font/bash-board.woff2?36748760') format('woff2'),
+       url('../font/bash-board.woff?36748760') format('woff'),
+       url('../font/bash-board.ttf?36748760') format('truetype'),
+       url('../font/bash-board.svg?36748760#bash-board') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "bash-board";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+ 
+  font-variant: normal;
+  text-transform: none;
+ 
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-rss:before { content: '\0101'; }
+.icon-tw:before { content: '\1010'; }
+.icon-in:before { content: '\1100'; }
+.icon-gh:before { content: '\2101'; }
+.icon-left:before { content: '\e800'; }
+.icon-menu:before { content: '\f0c9'; }
+.icon-search:before { content: '\e802'; }

@@ -50,10 +50,11 @@ article
 	margin: 0;
 }
 
-code
+code, pre
 {
 	margin-left: auto;
 	margin-right: auto;
+	font-family: $code-font-family !important;
 }
 
 .rouge-table > tbody > tr > td

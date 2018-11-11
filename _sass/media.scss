@@ -10,40 +10,47 @@
         font-size: 0.9em;
     }
 
-    .content-wrapper{
+    .content-wrapper
+    {
         width: 60%;
     }
 }
 
 @media only screen and (max-width: 600px)
 {
-    body{
+    body
+    {
         font-size: 0.9em;
     }
 
-    .home-article{
+    .home-article
+    {
         width: 60%;
     }
 
-    .pagination{
+    .pagination
+    {
         width: 75%;
     }
 }
 
 @media only screen and (max-width: 350px)
 {
-    header{
+    header
+    {
         font-size: 0.8em;
     }
 
-    .pagination{
+    .pagination
+    {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 300px)
 {
-    header{
+    header
+    {
         font-size: 0.7em;
     }
 

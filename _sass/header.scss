@@ -14,17 +14,38 @@ header a
 	position: fixed;
 	width: 100%;
 	background-color: $header-top-bg;
+	display: flex;
+	justify-content: space-between; 
 }
 
-.upperHeaderWrapper > h1
+.upperHeaderWrapper > div
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.upperHeaderWrapper > div > span
+{
+	font-size: 2em;
+	margin: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.upperHeaderWrapper > div > h1
 {
 	margin: 0.25em;
 	font-family: $code-font-family;
+	word-wrap: none;
 }
 
-.upperHeaderWrapper > h1 > a
+.upperHeaderWrapper > div > * > a
 {
 	text-decoration: none;
+}
+
+.search-button
+{
+	;
 }
 
 .bottomHeaderWrapper

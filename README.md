@@ -1,6 +1,6 @@
 # [bash-board](https://vllur.github.io/bash-board/) [![Build Status](https://travis-ci.org/vllur/bash-board.svg?branch=master)](https://travis-ci.org/vllur/bash-board)
 
-Board Jekyll blog theme, with side nav menu, search page an many other features!
+Board Jekyll blog theme, with side nav menu, search page and many other features!
 
 ### Dependencies:
   - [normalize.css (8.0.0)](https://github.com/necolas/normalize.css/)

@@ -1,7 +1,7 @@
 <header>
     <section class="upperHeaderWrapper">
         <div>
-            <span onclick="openNav()"><i class="icon-menu"></i></span> 
+            <span onclick="openNav()"><i class="icon-menu"></i></span>
             <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         </div>
         <div>
@@ -11,7 +11,7 @@
     <section class="bottomHeaderWrapper">
         <h1>
             {% if page.title %}
-                {{ page.url | downcase | append: '@' | remove: '/@' | remove: '@' }}
+                {{ page.title }}
             {% else %}
                 Home
             {% endif %}

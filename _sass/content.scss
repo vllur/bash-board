@@ -1,5 +1,4 @@
-.content-wrapper
-{
+.content-wrapper{
 	-webkit-box-flex: 1;
 	    -ms-flex: 1;
 	        flex: 1;
@@ -18,19 +17,16 @@
 	margin-right: auto;
 }
 
-.site-description
-{
+.site-description{
 	text-align: center;
 }
 
-article
-{
+article{
 	padding: 1em;
 	max-width: 90%;
 }
 
-.home-article-wrapper
-{
+.home-article-wrapper{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -41,11 +37,10 @@ article
 	        justify-content: center;
 }
 
-.home-article
-{
+.home-article{
 	width: 35%;
 	margin: 2.5%;
-	border-top: 2px solid $home-article-border-dark; 
+	border-top: 2px solid $home-article-border-dark;
 	border-right: 1px solid $home-article-border-light;
 	border-bottom: 1px solid $home-article-border-light;
 	display: flex;
@@ -53,55 +48,47 @@ article
 	white-space: no-wrap;
 }
 
-.home-article > h2
-{
+.home-article > h2{
 	margin-top: 0;
 	margin-bottom: 0.5em;
 	text-align: center;
 }
 
-.home-article > p
-{
+.home-article > p{
 	margin-top: 0.5em;
 	margin-bottom: 0;
 	flex-grow: 1;
 }
 
-.highlight
-{
+.highlight{
 	overflow-x: auto;
 	text-align: left;
 	margin: 0;
 }
 
-code, pre
-{
+code, pre{
 	margin-left: auto;
 	margin-right: auto;
 	font-family: $code-font-family !important;
 }
 
-.rouge-table > tbody > tr > td
-{
+.rouge-table > tbody > tr > td{
 	margin: 0;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
-.lineno
-{
+.lineno{
 	border-left: 1px solid $code-border;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
 
-.lineno, .rouge-code > pre
-{
+.lineno, .rouge-code > pre{
 	margin: 0.5em;
 }
 
-article > table
-{
+article > table{
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;

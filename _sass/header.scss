@@ -1,16 +1,13 @@
-header
-{
+header{
 	margin-bottom: 2.5%;
 	color: $header;
 }
 
-header a
-{
+header a{
 	color: $header-link;
 }
 
-.upperHeaderWrapper
-{
+.upperHeaderWrapper{
 	position: fixed;
 	width: 100%;
 	background-color: $header-top-bg;
@@ -19,11 +16,10 @@ header a
 	display: flex;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between; 
+	        justify-content: space-between;
 }
 
-.upperHeaderWrapper > div
-{
+.upperHeaderWrapper > div{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -35,36 +31,31 @@ header a
 	        align-items: center;
 }
 
-.upperHeaderWrapper > div > span
-{
+.upperHeaderWrapper > div > span{
 	font-size: 2em;
 	margin: 0.25em 0.5em 0.25em 0.5em;
 }
 
-.upperHeaderWrapper > div > h1
-{
+.upperHeaderWrapper > div > h1{
 	margin: 0.25em;
 	font-family: $code-font-family;
 	word-wrap: none;
 }
 
-.upperHeaderWrapper > div > * > a
-{
+.upperHeaderWrapper > div > * > a{
 	text-decoration: none;
 	color: $header-link;
 }
 
-.upperHeaderWrapper > div > * > a:hover
-{
+.upperHeaderWrapper > div > * > a:hover{
 	color: $header-link-hover;
 }
 
 
-.bottomHeaderWrapper
-{
+.bottomHeaderWrapper{
 	background-color: $header-bottom-bg;
 	font-family: $code-font-family;
 	text-align: center;
 	margin-top: 3.2em;
-	padding: 1.5em;
+	padding: 3em;
 }

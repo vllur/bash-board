@@ -1,5 +1,4 @@
-.sideNav
-{
+.sideNav{
 	height: 100vh;
 	width: 0;
 	position: fixed;
@@ -25,63 +24,54 @@
 	background-color: $sideNav-bg;
 }
 
-.sideNav > span
-{
+.sideNav > span{
 	position: absolute;
 	font-size: 2em;
     top: 0.5em;
     right: 0.5em;
 }
 
-.sideNav > ul
-{
+.sideNav > ul{
 	width: 100%;
 	font-size: 2em;
 }
 
-.sideNav > ul, .taglist
-{
+.sideNav > ul, .taglist{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-.sideNav > ul > li
-{
+.sideNav > ul > li{
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
 	width: 100%;
 }
 
-.sideNav > ul > li > a
-{
+.sideNav > ul > li > a{
 	display: block;
 	padding: 0.25em 0 0.25em 0;
 	text-decoration: none;
 	color: $sideNav;
 }
 
-.sideNav > ul > li > a:hover
-{
+.sideNav > ul > li > a:hover{
 	color: $sideNav-hover;
 	background-color: $sideNav-hover-bg;
 }
 
-.sideNav > .socials
-{
+.sideNav > .socials{
 	position: absolute;
 	bottom: 1em;
 	left: 0;
 	right: 0;
 }
 
-.sideNav > .socials > a > i
-{
+.sideNav > .socials > a > i{
 	color: $sideNav;
 }
 
-.sideNav > .socials > a > i:hover
-{
+.sideNav > .socials > a > i:hover{
 	color: $main-color;
 }

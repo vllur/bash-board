@@ -1,17 +1,14 @@
-html, body, main
-{
+html, body, main{
 	min-height: 100vh;
 	width: 100%;
 }
 
-body
-{
+body{
 	font-family: $body-font-family;
 	padding: 0;
 }
 
-main
-{
+main{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -22,39 +19,32 @@ main
 	padding: 0;
 }
 
-a
-{
+a{
 	color: $link;
 }
 
-a:hover
-{
+a:hover{
 	color: $link-hover;
 }
 
-nav,.pagination, footer
-{
+nav,.pagination, footer{
 	text-align: center;
 }
 
-article, .pagination
-{
+article, .pagination{
 	margin: 1em 0;
 }
 
-.socials
-{
+.socials{
 	font-size: 2em;
 }
 
-i:hover
-{
+i:hover{
 	cursor: pointer;
 	color: $main-color;
 }
 
-.pagination
-{
+.pagination{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -70,18 +60,15 @@ i:hover
 	margin-right: auto;
 }
 
-.pagination a
-{
+.pagination a{
 	text-decoration: none;
 }
 
-.page_number
-{
+.page_number{
 	word-wrap: none;
 }
 
-.paginator
-{
+.paginator{
 	background-color: $nav-button-active-bg;
 	color: $nav-button-active;
 	font-family: $paginator-font-family;
@@ -98,25 +85,21 @@ i:hover
 	height: 2em;
 }
 
-.paginator:hover
-{
+.paginator:hover{
 	background-color: $nav-button-active-bg-hover;
 	color: $nav-button-active-hover;
 }
 
-.inactive, .inactive:hover
-{
+.inactive, .inactive:hover{
 	background-color: $nav-button-inactive-bg;
 	color: $nav-button-inactive;
 }
 
-img
-{
+img{
 	max-width: 100%;
 }
 
-#search-container
-{
+#search-container{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;

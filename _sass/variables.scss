@@ -3,14 +3,14 @@ $code-font-family: 'Monaco', 'Deja Vu Sans';
 $paginator-font-family: $code-font-family;
 $footer-font-family: $code-font-family;
 
-$main-color: #80ecaf;
-$main-color-light: #a6fccb; 
+$main-color: #7c6cc9;
+$main-color-light: #998be0;
 
 $link: #3a3a3a;
 $link-hover: #727171;
 
-$header-top-bg:  #212121;
-$header-bottom-bg: #353535;
+$header-top-bg: linear-gradient(90deg, rgba(16,25,62,1) 0%, rgba(40,20,77,1) 50%, rgba(50,22,91,1) 100%);
+$header-bottom-bg: linear-gradient(90deg, rgba(29,44,111,1) 0%, rgba(65,33,125,1) 50%, rgba(78,34,142,1) 100%);
 $header: #f9f9f9;
 $header-link: $main-color;
 $header-link-hover: $main-color-light;
@@ -40,4 +40,4 @@ $table-hover: #ffffff;
 
 $footer: $header;
 $footer-link: #f9f9f9;
-$footer-bg: $header-top-bg;
+$footer-bg: $header-bottom-bg;

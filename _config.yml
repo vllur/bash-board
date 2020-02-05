@@ -2,7 +2,7 @@ title: "bash-board"
 description: "Board Jekyll blog theme."
 author:
   name: "vllur"
-  
+
 url: "https://vllur.github.io"
 baseurl: /bash-board
 
@@ -41,7 +41,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-google_analytics: ""
 owner: "vllur"
 lang: "en_GB"
 iso-lang: "en"

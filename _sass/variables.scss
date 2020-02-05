@@ -3,6 +3,8 @@ $code-font-family: 'Monaco', 'Deja Vu Sans';
 $paginator-font-family: $code-font-family;
 $footer-font-family: $code-font-family;
 
+$body-bg: linear-gradient(90deg, rgba(227,233,255,1) 0%, rgba(243,236,255,1) 50%, rgba(240,230,255,1) 100%);
+
 $main-color: #7c6cc9;
 $main-color-light: #998be0;
 
@@ -21,15 +23,14 @@ $sideNav: #f9f9f9;
 $sideNav-hover: #d6d6d6;
 $sideNav-hover-bg: $header-bottom-bg;
 
-$nav-button-active-bg: #040404;
-$nav-button-active-bg-hover: $header-bottom-bg;
+$nav-button-active-bg: $header-bottom-bg;
+$nav-button-active-bg-hover: #463693;
 $nav-button-active: #f4f4f4;
-$nav-button-active-hover: $main-color;
-$nav-button-inactive-bg: #f4f4f4;
-$nav-button-inactive: #040404;
+$nav-button-active-hover: #f4f4f4;
+$nav-button-inactive-bg: $body-bg;
+$nav-button-inactive: #000;
 
-$home-article-border-dark: black;
-$home-article-border-light: lightgray;
+$home-article-border: lightgray;
 
 $code-bg: #e0e0e0;
 $code-border: #a8a8a8;

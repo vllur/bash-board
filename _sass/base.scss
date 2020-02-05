@@ -6,6 +6,7 @@ html, body, main{
 body{
 	font-family: $body-font-family;
 	padding: 0;
+	background: $body-bg;
 }
 
 main{
@@ -27,7 +28,7 @@ a:hover{
 	color: $link-hover;
 }
 
-nav,.pagination, footer{
+nav, .pagination, footer{
 	text-align: center;
 }
 
@@ -36,7 +37,7 @@ article, .pagination{
 }
 
 .socials{
-	font-size: 2em;
+	font-size: 2.1em;
 }
 
 i:hover{
@@ -69,9 +70,10 @@ i:hover{
 }
 
 .paginator{
-	background-color: $nav-button-active-bg;
+	background: $nav-button-active-bg;
 	color: $nav-button-active;
 	font-family: $paginator-font-family;
+	border-radius: 10%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -86,12 +88,11 @@ i:hover{
 }
 
 .paginator:hover{
-	background-color: $nav-button-active-bg-hover;
-	color: $nav-button-active-hover;
+	background: $nav-button-active-bg-hover;
 }
 
 .inactive, .inactive:hover{
-	background-color: $nav-button-inactive-bg;
+	background: $nav-button-inactive-bg;
 	color: $nav-button-inactive;
 }
 

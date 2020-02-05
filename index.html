@@ -9,7 +9,7 @@ layout: default
 {% for post in paginator.posts %}
 	<article class="home-article">
 	<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-	<p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>, on topics: {% include tags.html %}</p>
+	<p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>, on: {% include tags.html %}</p>
 	<p>{{ post.content | strip_html | truncatewords:15 }}</p>
 	</article>
 {% endfor %}

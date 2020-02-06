@@ -1,7 +1,7 @@
 $body-font-family: 'Helvetica', 'Trebuchet', 'Trebuchet MS', 'Arial', sans-serif;
-$code-font-family: 'Monaco', 'Deja Vu Sans';
-$paginator-font-family: $code-font-family;
-$footer-font-family: $code-font-family;
+$code-font-family: 'Monaco', 'Hack', 'Deja Vu Sans', mono;
+$paginator-font-family: $body-font-family;
+$footer-font-family: $body-font-family;
 
 $body-bg: linear-gradient(90deg, rgba(227,233,255,1) 0%, rgba(243,236,255,1) 50%, rgba(240,230,255,1) 100%);
 

@@ -43,7 +43,11 @@ article, .pagination{
 
 i:hover{
 	cursor: pointer;
-	color: $main-color;
+	color: $link-hover;
+}
+
+header i:hover{
+	color: $main-color-light;
 }
 
 .pagination{

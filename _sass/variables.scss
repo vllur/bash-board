@@ -3,17 +3,17 @@ $code-font-family: 'Monaco', 'Hack', 'Deja Vu Sans', mono;
 $paginator-font-family: $body-font-family;
 $footer-font-family: $body-font-family;
 
-$body-bg: linear-gradient(90deg, rgba(227,233,255,1) 0%, rgba(243,236,255,1) 50%, rgba(240,230,255,1) 100%);
+$body-bg: linear-gradient(90deg, rgba(241,250,255,1) 0%, rgba(239,244,255,1) 50%, rgba(241,240,255,1) 100%);;
 
-$main-color: #7c6cc9;
-$main-color-light: #998be0;
+$main-color: #fff;
+$main-color-light: #e0e0e0;
 
 $link: #3a3a3a;
 $link-hover: #727171;
 
-$header-title: #f0f0f0;
-$header-top-bg: linear-gradient(90deg, rgba(16,25,62,1) 0%, rgba(40,20,77,1) 50%, rgba(50,22,91,1) 100%);
-$header-bottom-bg: linear-gradient(90deg, rgba(29,44,111,1) 0%, rgba(65,33,125,1) 50%, rgba(78,34,142,1) 100%);
+$header-title: #fff;
+$header-top-bg: linear-gradient(90deg, rgba(57,151,207,1) 0%, rgba(68,117,219,1) 50%, rgba(93,84,240,1) 100%);
+$header-bottom-bg: $header-top-bg;
 $header: #f9f9f9;
 $header-link: $main-color;
 $header-link-hover: $main-color-light;
@@ -24,7 +24,7 @@ $sideNav-hover: #d6d6d6;
 $sideNav-hover-bg: $header-bottom-bg;
 
 $nav-button-active-bg: $header-bottom-bg;
-$nav-button-active-bg-hover: #463693;
+$nav-button-active-bg-hover: #64a0f5;
 $nav-button-active: #f4f4f4;
 $nav-button-active-hover: #f4f4f4;
 $nav-button-inactive-bg: $body-bg;

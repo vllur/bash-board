@@ -44,3 +44,5 @@ plugins:
 owner: "vllur"
 lang: "en_GB"
 iso-lang: "en"
+
+footer: "Lorem ipsum dolor"

@@ -1,7 +1,13 @@
 <footer>
-    <a href="{{ "/" | prepend, site.baseurl}}">
-        {{ site.owner }} &copy;
-        {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-        {{ currentyear }}
-    </a>
+  <div>
+    <p>
+      {{ site.footer }}
+    </p>
+    {% include socials.html %}
+  </div>
+  <a href="{{ "/" | prepend, site.baseurl}}">
+    {{ site.owner }} &copy;
+    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
+    {{ currentyear }}
+  </a>
 </footer>

@@ -115,3 +115,36 @@ img{
 	text-align: center;
 	padding: 0;
 }
+
+.TagCloud{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2{
+    margin-bottom: 0;
+  }
+
+  & ul{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+    & li{
+      display: inline;
+    }
+
+    & li:nth-of-type(3n + 1) {
+      font-size: 1.25em;
+    }
+
+    & li:nth-of-type(4n+3) {
+      font-size: 1.5em;
+    }
+
+    & li:nth-of-type(5n - 3) {
+      font-size: 1em;
+    }
+  }
+}

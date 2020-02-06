@@ -1,0 +1,14 @@
+---
+layout: page
+title: Archive
+---
+
+<h2>List of all posts</h2>
+
+<article>
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</article>

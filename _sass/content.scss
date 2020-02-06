@@ -43,7 +43,7 @@ article{
 	border: 1px solid $home-article-border;
 	border-bottom: 2px solid $home-article-border;
 	border-right: 2px solid $home-article-border;
-	border-radius: 1%;
+	border-radius: 3%;
 	display: flex;
 	flex-direction: column;
 	white-space: no-wrap;
@@ -64,7 +64,7 @@ article{
 .highlight{
 	overflow-x: auto;
 	text-align: left;
-	margin: 0;
+	margin: 0.25em 0;
 }
 
 code, pre{
@@ -81,8 +81,9 @@ code, pre{
 
 .lineno{
 	border-left: 1px solid $code-border;
-	padding-left: 0.5em;
+	padding-left: 0.3em;
 	padding-right: 0.5em;
+	color: #a8a8a8;
 }
 
 .lineno, .rouge-code > pre{

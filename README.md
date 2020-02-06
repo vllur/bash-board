@@ -1,19 +1,29 @@
 # [bash-board](https://vllur.github.io/bash-board/) [![Build Status](https://travis-ci.org/vllur/bash-board.svg?branch=master)](https://travis-ci.org/vllur/bash-board)
 
-Board Jekyll blog theme, with side nav menu, search page and many other features!
+A Jekyll blog theme, with side nav menu, search page and many other features.
 
-## Dependencies:
-  - [normalize.css (8.0.0)](https://github.com/necolas/normalize.css/)
-  - [Fontello](http://fontello.com/)
-  - [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-  - Google Analytics
+![Desktop](assets/img/1.png)
 
-See [Gemfile](./Gemfile) and [_config.yml](./_config.yml) for list of all gems & Jekyll plugins.
+A live demo is available [here](https://vllur.github.io/bash-board/).
 
-## Usage
-Just clone/fork this repo and tweak it to your needs. You probably want to make changes in ```_config.yml``` and ```_sass/variables.scss```, as well as change social links (```_includes/socials```).
+## Features:
+- no dependencies
+- can be hosted easily on [Github Pages](https://pages.github.com/)
+- modern
+- responsive
+- simplistic
+- really fast (100 points on PageSpeed Insights!)
 
-To make tags work, you need to add separate file in ```tag/``` - just mimic the existing files, and remember that you must do this every time you use a new tag in your post.
+## How to:
+- do easy deploy:
+  1. Fork this repo
+  1. Change `baseurl` in `_config.yml` to `/`
+  1. Change its name to [nickname].github.io
+  1. Visit [nickname].github.io
+- customize your posts:
+  - They can be found in `_posts` directory - you can use existing posts as reference to creating your own
+- customize colours and gradients:
+  - All of the colours are in `_sass/variables.scss` file. Editing them will edit colours site-wide.
 
 
 ## Licensing:

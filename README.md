@@ -1,4 +1,4 @@
-# [bash-board](https://vllur.github.io/bash-board/) [![Build Status](https://travis-ci.org/vllur/bash-board.svg?branch=master)](https://travis-ci.org/vllur/bash-board)
+# [bash-board](https://vllur.github.io/bash-board/) [![Build Status](https://travis-ci.org/vllur/bash-board.svg?branch=master)](https://travis-ci.org/vllur/bash-board) ![Jekyll site CI](https://github.com/vllur/bash-board/workflows/Jekyll%20site%20CI/badge.svg)
 
 A Jekyll blog theme, with side nav menu, search page and many other features.
 
